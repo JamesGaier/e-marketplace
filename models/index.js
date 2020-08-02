@@ -1,6 +1,5 @@
 const mongoose = require('mongoose');
 
-mongoose.set('debug', true);
 mongoose.connect(process.env.MONGOURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
