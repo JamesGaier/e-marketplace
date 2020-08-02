@@ -1,2 +1,2 @@
-cd server && npm start &
+npm start &
 cd client && npm start
